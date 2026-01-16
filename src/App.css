@@ -664,6 +664,14 @@
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
 }
 
+.project-card.has-image {
+  /* Removed old styles */
+}
+
+.project-card.has-image::before {
+  display: none;
+}
+
 .project-header {
   padding: 2rem;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.05));
@@ -671,24 +679,55 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  min-height: 160px; /* Increase height for image visibility */
 }
 
-.project-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.project-header.has-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: none;
 }
 
-.project-badge {
-  padding: 0.25rem 0.75rem;
-  background: var(--accent-gradient);
-  border-radius: 50px;
-  font-size: 0.75rem;
-  color: white;
-  font-weight: 600;
+/* Overlay for project header images */
+.project-header.has-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.4),
+    rgba(10, 10, 10, 0.8)
+  );
+  z-index: 0;
 }
 
 .project-content {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-icon, .project-badge {
+  position: relative;
+  z-index: 1;
+}
+
+.project-badge {
+  padding: 0.25rem 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid var(--accent-primary);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
 }
 
 .project-name {
@@ -708,6 +747,7 @@
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
   line-height: 1.7;
+  flex: 1; /* Pushes content below it to the bottom */
 }
 
 .project-technologies {
@@ -715,6 +755,7 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+  margin-top: auto; /* Ensures spacing even if description is short */
 }
 
 .project-tech {

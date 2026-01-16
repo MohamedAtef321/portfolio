@@ -12,7 +12,7 @@
     "twitter": "https://x.com/TeFa564",
     "whatsapp": "+201013424947",
     "militaryStatus": "Exempted",
-    "avatar": "https://avatars.githubusercontent.com/u/73308647?v=4",
+    "avatar": "https://pbs.twimg.com/profile_images/2004674494938386433/EACqioUh.jpg",
     "bio": "Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation."
   },
   "summary": "Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation. Proven ability to drive revenue, ensure operational efficiency and work effectively within a team.",
@@ -114,7 +114,8 @@
       "github": "https://github.com/MohamedAtef321/RTSD-Road-Traffic-Signs-Detection-System",
       "stars": 4,
       "featured": true,
-      "icon": "🚗"
+      "icon": "🚗",
+      "image": "https://github.com/MohamedAtef321/RTSD-Road-Traffic-Signs-Detection-System/raw/main/images/RTSD_banner_round.png"
     },
     {
       "name": "YOLOv8 Extended Edition",
@@ -130,7 +131,8 @@
       "github": "https://github.com/MohamedAtef321/YOLOv8-Extended-Edition",
       "stars": 4,
       "featured": true,
-      "icon": "🔬"
+      "icon": "🔬",
+      "image": "https://github.com/MohamedAtef321/YOLOv8-Extended-Edition/raw/main/images/yolov8_banner_rounded.png"
     },
     {
       "name": "Mind App",

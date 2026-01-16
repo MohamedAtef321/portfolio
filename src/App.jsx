@@ -670,7 +670,12 @@ function App() {
                 className={`project-card ${project.featured ? 'featured' : ''}`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="project-header">
+                <div 
+                  className={`project-header ${project.image ? 'has-image' : ''}`}
+                  style={{ 
+                    backgroundImage: project.image ? `url(${project.image})` : undefined
+                  }}
+                >
                   <span className="project-icon">{getProjectIcon(project.icon)}</span>
                   {project.featured && <span className="project-badge">Featured</span>}
                 </div>
