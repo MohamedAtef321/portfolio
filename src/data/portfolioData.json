@@ -1,6 +1,6 @@
 {
   "personalInfo": {
-    "name": "Mohamed Atef Abdelhay Ghanem",
+    "name": "Mohamed Atef",
     "title": "GenAI Engineer • Data Scientist",
     "location": "Cairo, Egypt",
     "phone": "(+20) 01013424947",
@@ -8,7 +8,12 @@
     "linkedin": "https://linkedin.com/in/mohamed-atef-651099193",
     "github": "https://github.com/MohamedAtef321",
     "kaggle": "https://kaggle.com/mohamedatef321",
-    "militaryStatus": "Exempted"
+    "facebook": "https://www.facebook.com/www.xzorro",
+    "twitter": "https://x.com/TeFa564",
+    "whatsapp": "+201013424947",
+    "militaryStatus": "Exempted",
+    "avatar": "https://avatars.githubusercontent.com/u/73308647?v=4",
+    "bio": "Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation."
   },
   "summary": "Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation. Proven ability to drive revenue, ensure operational efficiency and work effectively within a team.",
   "experience": [
@@ -17,6 +22,7 @@
       "company": "e& Egypt (Etisalat Egypt)",
       "location": "Egypt",
       "period": "Jan 2025 - Present",
+      "icon": "🏢",
       "details": [
         "Collaborated with cross-functional teams to deliver data-driven insights and AI-driven solutions.",
         "Led and guided junior team members through various projects.",
@@ -32,6 +38,7 @@
       "company": "Upwork",
       "location": "Remote",
       "period": "Jul 2023 - Present",
+      "icon": "💼",
       "details": [
         "Machine Learning & AI: Applied YOLOv5 for object detection, developed AI melody generation tools using deep learning, and built IRT models with Bayesian statistics.",
         "Data Engineering: Created a Selenium-based tool for scraping live and historical financial data from dynamic web charts and other sources."
@@ -42,6 +49,7 @@
       "company": "EYouth",
       "location": "Egypt",
       "period": "Oct 2024 - May 2025",
+      "icon": "🎓",
       "details": [
         "Mentored students in AI/ML for remote freelance careers.",
         "Shared practical AI/data science project strategies and best practices."
@@ -52,6 +60,7 @@
       "company": "Infinity Technologies",
       "location": "UAE",
       "period": "Aug 2024 - Jan 2025",
+      "icon": "🚀",
       "details": [
         "Leveraged GenAI/LLMs to build intelligent apps, solving complex problems and automating workflows.",
         "Designed/implemented AI solutions for insight extraction and client value."
@@ -62,6 +71,7 @@
       "company": "Login HR System",
       "location": "Egypt",
       "period": "Nov 2023 - Jul 2024",
+      "icon": "⚙️",
       "details": [
         "Deployed and maintained the application for attendance, HR, and payroll management on client systems.",
         "Automated data processing with SQL and created reports using SAP Crystal Reports."
@@ -91,26 +101,188 @@
   ],
   "projects": [
     {
-      "name": "Road Traffic Signs Detection (RTSD) System (ADAS)",
+      "name": "RTSD - Road Traffic Signs Detection System",
       "role": "Graduation Project - Sponsored by Swift-Act",
       "period": "Sep 2022 - Jul 2023",
-      "description": "RTSD system uses AI and computer vision to help self-driving cars interact with traffic signs, enhancing safety and reducing accidents. Fine-tuned YOLOv8 on a traffic signs dataset and deployed it on a Raspberry Pi board. Responsible for Night Vision and Lane-Line Detection."
+      "description": "RTSD system uses AI and computer vision to help self-driving cars interact with traffic signs, enhancing safety and reducing accidents.",
+      "technologies": [
+        "YOLOv8",
+        "Computer Vision",
+        "Raspberry Pi",
+        "Python"
+      ],
+      "github": "https://github.com/MohamedAtef321/RTSD-Road-Traffic-Signs-Detection-System",
+      "stars": 4,
+      "featured": true,
+      "icon": "🚗"
+    },
+    {
+      "name": "YOLOv8 Extended Edition",
+      "role": "Personal Project",
+      "period": "2023",
+      "description": "Extended fork of Ultralytics YOLOv8 with new features focused on Automotive Vehicles, including lane detection and night vision.",
+      "technologies": [
+        "Python",
+        "YOLOv8",
+        "Deep Learning",
+        "Computer Vision"
+      ],
+      "github": "https://github.com/MohamedAtef321/YOLOv8-Extended-Edition",
+      "stars": 4,
+      "featured": true,
+      "icon": "🔬"
+    },
+    {
+      "name": "Mind App",
+      "role": "Personal Project",
+      "period": "2025",
+      "description": "An intelligent application leveraging AI for mental wellness and productivity enhancement.",
+      "technologies": [
+        "Python",
+        "AI",
+        "Machine Learning"
+      ],
+      "github": "https://github.com/MohamedAtef321/Mind-App",
+      "stars": 0,
+      "featured": false,
+      "icon": "🧠"
+    },
+    {
+      "name": "Churn Chatbot",
+      "role": "Personal Project",
+      "period": "2024",
+      "description": "Chatbot that uses classifier model to predict will a customer churn or not based on their data.",
+      "technologies": [
+        "Python",
+        "Machine Learning",
+        "NLP",
+        "Chatbot"
+      ],
+      "github": "https://github.com/MohamedAtef321/Churn-Chatbot",
+      "stars": 0,
+      "featured": false,
+      "icon": "💬"
+    },
+    {
+      "name": "Resume ChatBot",
+      "role": "Personal Project",
+      "period": "2024",
+      "description": "AI-powered chatbot that answers questions about your resume using NLP and LLM technologies.",
+      "technologies": [
+        "Python",
+        "NLP",
+        "LLM",
+        "Chatbot"
+      ],
+      "github": "https://github.com/MohamedAtef321/Resume-ChatBot",
+      "stars": 0,
+      "featured": false,
+      "icon": "📄"
+    },
+    {
+      "name": "CSV Data Viewer",
+      "role": "Personal Project",
+      "period": "2024-2025",
+      "description": "A powerful data visualization tool for CSV files with advanced filtering and analysis capabilities.",
+      "technologies": [
+        "Python",
+        "Data Visualization",
+        "Pandas"
+      ],
+      "github": "https://github.com/MohamedAtef321/CSV-Data-Viewer",
+      "stars": 0,
+      "featured": false,
+      "icon": "📊"
     }
   ],
   "skills": {
-    "General": [
-      "OOP", "Synchronous/Asynchronous programming", "SOLID principles", "Assembly", "Software Engineering", "Back-end/Android app development",
-      "Data Scraping", "Automation", "Database Management", "Linux Administration", "Cybersecurity", "Networking"
+    "AI & ML": [
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "NLP",
+      "LLM",
+      "Agentic AI",
+      "PyTorch",
+      "TensorFlow"
     ],
-    "Technical": [
-      "Python", "Java", "C/C++", "SQL", "HTML", "CSS", "JavaScript", "PyTorch",
-      "Machine Learning", "Deep Learning", "Computer Vision", "NLP & Hugging Face", "LLM", "MCP", "Agentic AI", "Agno", "Langgraph", "DsPy", "Airflow", "MLFlow", "n8n", "UIPath", "Langfuse"
+    "GenAI Tools": [
+      "Hugging Face",
+      "Langchain",
+      "Langgraph",
+      "DsPy",
+      "MCP",
+      "Agno",
+      "Langfuse"
+    ],
+    "Programming": [
+      "Python",
+      "Java",
+      "C/C++",
+      "SQL",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "DevOps & Tools": [
+      "Airflow",
+      "MLFlow",
+      "n8n",
+      "UIPath",
+      "Linux",
+      "Docker",
+      "Git"
+    ],
+    "Data & Backend": [
+      "Data Scraping",
+      "Automation",
+      "Database Management",
+      "Backend Development"
     ]
   },
   "certifications": [
-    "AWS Certified Cloud Practitioner",
-    "Machine Learning Specialization (Coursera)",
-    "Database Fundamentals & Applied Machine Learning (Mahara-Tech)"
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "icon": "☁️"
+    },
+    {
+      "name": "Machine Learning Specialization",
+      "issuer": "Coursera",
+      "icon": "🤖"
+    },
+    {
+      "name": "Database Fundamentals & Applied Machine Learning",
+      "issuer": "Mahara-Tech",
+      "icon": "📚"
+    }
   ],
-  "languages": ["Arabic (Native)", "English (Fluent)", "French (Beginner)", "German (Beginner)"]
+  "languages": [
+    {
+      "name": "Arabic",
+      "level": "Native",
+      "percentage": 100
+    },
+    {
+      "name": "English",
+      "level": "Fluent",
+      "percentage": 90
+    },
+    {
+      "name": "French",
+      "level": "Beginner",
+      "percentage": 25
+    },
+    {
+      "name": "German",
+      "level": "Beginner",
+      "percentage": 20
+    }
+  ],
+  "stats": {
+    "yearsExperience": "2+",
+    "projectsCompleted": "100+",
+    "clientsServed": "10+",
+    "githubRepos": "34"
+  }
 }
