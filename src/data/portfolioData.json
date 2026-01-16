@@ -1,0 +1,116 @@
+{
+  "personalInfo": {
+    "name": "Mohamed Atef Abdelhay Ghanem",
+    "title": "GenAI Engineer • Data Scientist",
+    "location": "Cairo, Egypt",
+    "phone": "(+20) 01013424947",
+    "email": "mohamed.atef.ghanem123@gmail.com",
+    "linkedin": "https://linkedin.com/in/mohamed-atef-651099193",
+    "github": "https://github.com/MohamedAtef321",
+    "kaggle": "https://kaggle.com/mohamedatef321",
+    "militaryStatus": "Exempted"
+  },
+  "summary": "Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation. Proven ability to drive revenue, ensure operational efficiency and work effectively within a team.",
+  "experience": [
+    {
+      "role": "Data Scientist & GenAI Engineer",
+      "company": "e& Egypt (Etisalat Egypt)",
+      "location": "Egypt",
+      "period": "Jan 2025 - Present",
+      "details": [
+        "Collaborated with cross-functional teams to deliver data-driven insights and AI-driven solutions.",
+        "Led and guided junior team members through various projects.",
+        "Analyzed large datasets, creating reports, conducting A/B testing.",
+        "Built Agentic AI applications, such as: Agentic AI chatbot platform that connects most of our internal apps and tools in a centralized interface.",
+        "AI app to perform investigation analysis for network performance for users (5x performance increase).",
+        "RAG System to let users use their own documents to get wanted knowledge with an all on-premise solution.",
+        "Time series analysis with seasonality to identify significant changes in performance of the overall network."
+      ]
+    },
+    {
+      "role": "Top-Rated GenAI Engineer",
+      "company": "Upwork",
+      "location": "Remote",
+      "period": "Jul 2023 - Present",
+      "details": [
+        "Machine Learning & AI: Applied YOLOv5 for object detection, developed AI melody generation tools using deep learning, and built IRT models with Bayesian statistics.",
+        "Data Engineering: Created a Selenium-based tool for scraping live and historical financial data from dynamic web charts and other sources."
+      ]
+    },
+    {
+      "role": "Freelance Data Science Coach",
+      "company": "EYouth",
+      "location": "Egypt",
+      "period": "Oct 2024 - May 2025",
+      "details": [
+        "Mentored students in AI/ML for remote freelance careers.",
+        "Shared practical AI/data science project strategies and best practices."
+      ]
+    },
+    {
+      "role": "GenAI Engineer",
+      "company": "Infinity Technologies",
+      "location": "UAE",
+      "period": "Aug 2024 - Jan 2025",
+      "details": [
+        "Leveraged GenAI/LLMs to build intelligent apps, solving complex problems and automating workflows.",
+        "Designed/implemented AI solutions for insight extraction and client value."
+      ]
+    },
+    {
+      "role": "Software Implementer",
+      "company": "Login HR System",
+      "location": "Egypt",
+      "period": "Nov 2023 - Jul 2024",
+      "details": [
+        "Deployed and maintained the application for attendance, HR, and payroll management on client systems.",
+        "Automated data processing with SQL and created reports using SAP Crystal Reports."
+      ]
+    }
+  ],
+  "training": [
+    {
+      "role": "Computer Vision - Summer Training",
+      "company": "ITI (Information Technology Institute)",
+      "location": "Egypt",
+      "period": "Aug 2022 - Sep 2022",
+      "details": [
+        "Image Processing and Filters",
+        "Python Libraries: OpenCV, NumPy, TensorFlow"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Communications and Electronics Engineering",
+      "institution": "Faculty of Engineering - Mansoura University",
+      "location": "Egypt",
+      "period": "Oct 2018 – Jul 2023",
+      "grade": "Excellent grades of 85% (GPA 3.4)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Road Traffic Signs Detection (RTSD) System (ADAS)",
+      "role": "Graduation Project - Sponsored by Swift-Act",
+      "period": "Sep 2022 - Jul 2023",
+      "description": "RTSD system uses AI and computer vision to help self-driving cars interact with traffic signs, enhancing safety and reducing accidents. Fine-tuned YOLOv8 on a traffic signs dataset and deployed it on a Raspberry Pi board. Responsible for Night Vision and Lane-Line Detection."
+    }
+  ],
+  "skills": {
+    "General": [
+      "OOP", "Synchronous/Asynchronous programming", "SOLID principles", "Assembly", "Software Engineering", "Back-end/Android app development",
+      "Data Scraping", "Automation", "Database Management", "Linux Administration", "Cybersecurity", "Networking"
+    ],
+    "Technical": [
+      "Python", "Java", "C/C++", "SQL", "HTML", "CSS", "JavaScript", "PyTorch",
+      "Machine Learning", "Deep Learning", "Computer Vision", "NLP & Hugging Face", "LLM", "MCP", "Agentic AI", "Agno", "Langgraph", "DsPy", "Airflow", "MLFlow", "n8n", "UIPath", "Langfuse"
+    ]
+  },
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Machine Learning Specialization (Coursera)",
+    "Database Fundamentals & Applied Machine Learning (Mahara-Tech)"
+  ],
+  "languages": ["Arabic (Native)", "English (Fluent)", "French (Beginner)", "German (Beginner)"]
+}

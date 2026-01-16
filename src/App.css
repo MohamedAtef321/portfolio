@@ -1,0 +1,83 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  border-bottom: 2px solid #646cff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.job, .project, .education-item {
+  margin-bottom: 1.5rem;
+}
+
+.job-header, .project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.job h3, .project h3 {
+  margin: 0;
+}
+
+.company, .period, .location {
+  font-weight: bold;
+  color: #555;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.skills-category {
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-info {
+    color: #aaa;
+  }
+  .company, .period, .location {
+    color: #ccc;
+  }
+  .skill-tag {
+    background-color: #333;
+  }
+}

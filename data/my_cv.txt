@@ -1,0 +1,109 @@
+Mohamed Atef Abdelhay Ghanem 
+GenAI Engineer • Data Scientist 
+Location: Cairo, Egypt • Phone: (+20) 01013424947 
+Military status: Exempted 
+Email: mohamed.atef.ghanem123@gmail.com • linkedin: linkedin.com/in/mohamed-atef-651099193 
+GitHub: github.com/MohamedAtef321 • Kaggle: kaggle.com/mohamedatef321 
+Summary 
+Experienced GenAI engineer and data scientist with over 2 years of experience working in data science, machine 
+learning, deep learning, agentic generative AI, LLMs and their applications, data scraping and automation.  
+Proven ability to drive revenue, ensure operational efficiency and work effectively within a team.  
+Career Experience 
+Data Scientist & GenAI Engineer 
+e& Egypt (Etisalat Egypt) 
+● Collaborated with cross-functional teams to deliver data-driven insights and AI-driven solutions. 
+● Led and guided junior team members through various projects. 
+● Analyzed large datasets, creating reports, conducting A/B testing.  
+● Built Agentic AI applications, such as: 
+Egypt 
+Jan 2025 - Present 
+○ Agentic AI chatbot platform that connects most of our internal apps and tools in a 
+centralized interface, with MCPs, multi-agent workflows, ability to integrate easily with our 
+internal apps. 
+○ AI app to perform investigation analysis for network performance for users, this increased the 
+performance by 5x for the technical engineers. 
+○ RAG System to let users use their own documents to get wanted knowledge with an all 
+on-premise solution. Which increased their performance and let them use AI in a secure 
+environment. 
+○ Time series analysis with seasonality to identify significant changes in performance of the 
+overall network.   
+Top-Rated GenAI Engineer 
+Upwork 
+Worked with international clients on projects in many fields such as: 
+Remote 
+Jul 2023 - Present 
+● Machine Learning & AI: Applied YOLOv5 for object detection, developed AI melody generation tools 
+using deep learning, and built IRT models with Bayesian statistics using Stan. 
+● Data Engineering: Created a Selenium-based tool for scraping live and historical financial data from 
+dynamic web charts and other sources, exporting it to CSV/Excel. 
+Freelance Data Science Coach 
+EYouth 
+Egypt 
+Oct 2024 - May 2025 
+● Mentored students in AI/ML for remote freelance careers. 
+● Shared practical AI/data science project strategies and best practices. 
+GenAI Engineer 
+Infinity Technologies 
+UAE 
+Aug 2024 - Jan 2025 
+● Leveraged GenAI/LLMs to build intelligent apps, solving complex problems and automating workflows. 
+● Designed/implemented AI solutions for insight extraction and client value. 
+Software Implementer 
+Login HR System 
+Egypt 
+Nov 2023 - Jul 2024 
+● Deployed and maintained the application for attendance, HR, and payroll management on client systems. 
+● Automated data processing with SQL and created reports using SAP Crystal Reports to enhance 
+efficiency and decision-making. 
+Training 
+Egypt 
+Computer Vision - Summer Training 
+ITI (Information Technology Institute) 
+This internship covered advanced topics in computer vision, such as : 
+● Image Processing and Filters 
+● Python Libraries: OpenCV, NumPy, TensorFlow 
+Aug 2022 - Sep 2022  
+Education 
+Faculty of Engineering - Mansoura University 
+Bachelor's Degree in Communications and Electronics Engineering  
+with Excellent grades of 85% (GPA 3.4) 
+Egypt 
+Oct 2018 – Jul 2023 
+Projects 
+Road Traffic Signs Detection (RTSD) System (ADAS) - GitHub 
+Graduation Project - Sponsored and Mentored by Swift-Act 
+Sep 2022 - Jul 2023 
+RTSD system uses AI and computer vision to help self-driving cars interact with traffic signs, enhancing safety 
+and reducing accidents. I fine-tuned YOLOv8 on a traffic signs dataset and deployed it on a Raspberry Pi board. 
+The system works with an autonomous RC car. 
+Also, we added some additional features to the project. The ones which I was responsible for are : 
+● Night Vision: Enhances vision accuracy in dark environments. 
+● Lane-Line Detection: Helps the self-driving car detect lane lines. 
+Skills 
+General :  
+● Programming & Software Development: Proficient in various programming concepts, including OOP, 
+synchronous/asynchronous programming, SOLID principles, Assembly, software engineering, and 
+back-end/Android app development. 
+● Data & Systems: Experienced in data scraping, automation, database management (SQL Server, Power 
+BI, SAP Crystal Report), Linux administration, cybersecurity, and networking (2G, 3G, 4G technologies). 
+● Version Control & Cloud Platforms: Familiar with Git/GitHub/GitLab and cloud platforms such as 
+AWS, Digital Ocean, and Heroku. 
+Technical  :  
+● Programming Languages & Libraries: Python (with various libraries), Java, C/C++, SQL, HTML, 
+CSS, JavaScript, PyTorch 
+● AI & Data Science: Machine Learning & Deep Learning Algorithms, Computer Vision techniques, NLP 
+& Hugging Face, LLM, MCP, Agentic AI, Agno, Langgraph, DsPy, Airflow, MLFlow, n8n, UIPath, 
+Langfuse 
+Certifications 
+● AWS Certified Cloud Practitioner - Cert-Link 
+● Machine Learning Specialization (Coursera) - Cert-Link 
+● Database Fundamentals & Applied Machine Learning (Mahara-Tech) - Cert-Link 
+Courses 
+● Deep Learning Specialization (YouTube) - Link 
+● Data Analysis & Visualization Courses (DataCamp) 
+● Python for Data Science and Machine Learning Bootcamp (Udemy) - Link 
+Languages 
+● Arabic (Native) 
+● English (Fluent) 
+● French (Beginner) 
+● German (Beginner) 
