@@ -462,35 +462,70 @@
 }
 
 .skill-category {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
+  background: transparent;
+  border: none;
   border-radius: 20px;
   padding: 2rem;
-  transition: var(--transition-smooth);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
+/* Animated Gradient Border (Hidden by default) */
 .skill-category::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--accent-gradient);
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0%, 
+    var(--accent-primary) 20%, 
+    var(--accent-secondary) 40%,
+    var(--accent-tertiary) 60%, 
+    var(--accent-primary) 80%,
+    transparent 100%
+  );
+  transform: translate(-50%, -50%);
+  animation: rotate 4s linear infinite;
+  z-index: -2;
   opacity: 0;
-  transition: var(--transition-smooth);
+  transition: opacity 0.3s ease;
+}
+
+/* Inner Card Background & Static Border */
+.skill-category::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-card);
+  border-radius: 20px;
+  z-index: -1;
+  box-shadow: 0 0 0 1px var(--border-color); /* Static border simulation */
+  transition: box-shadow 0.3s ease;
 }
 
 .skill-category:hover {
   transform: translateY(-5px);
-  border-color: var(--accent-primary);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .skill-category:hover::before {
   opacity: 1;
+}
+
+.skill-category:hover::after {
+  box-shadow: 0 0 0 0 transparent; /* Hide static border */
+}
+
+/* Ensure content stays on top */
+.skill-category h3,
+.skill-category .skill-tags {
+  position: relative;
+  z-index: 2;
 }
 
 .skill-category h3 {
@@ -526,11 +561,7 @@
   transition: var(--transition-fast);
 }
 
-.skill-tag:hover {
-  background: rgba(99, 102, 241, 0.2);
-  color: var(--text-primary);
-  transform: scale(1.05);
-}
+/* Old hover removed, see bottom of file */
 
 /* ===== Experience Section ===== */
 .experience-timeline {
@@ -720,14 +751,33 @@
 }
 
 .project-badge {
-  padding: 0.25rem 0.75rem;
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid var(--accent-primary);
+  padding: 0.35rem 1rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
+  border: 1px solid rgba(99, 102, 241, 0.5);
   border-radius: 50px;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 600;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+  animation: badgePulse 3s infinite ease-in-out;
+}
+
+@keyframes badgePulse {
+  0% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+    border-color: rgba(99, 102, 241, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6), 0 0 5px rgba(255, 255, 255, 0.5);
+    border-color: rgba(139, 92, 246, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+    border-color: rgba(99, 102, 241, 0.5);
+  }
 }
 
 .project-name {
@@ -1429,6 +1479,48 @@
 }
 
 /* ===== Language Progress Animation ===== */
+/* ... previous CSS ... */
+
 .language-progress {
-  transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  background: var(--accent-gradient);
+  border-radius: 4px;
+  transition: width 1s ease-out;
+}
+
+/* ===== Tech & Skill Hover Animations ===== */
+@keyframes colorShift {
+  0% {
+    border-color: #6366f1;
+    color: #6366f1;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.4);
+  }
+  25% {
+    border-color: #8b5cf6;
+    color: #8b5cf6;
+    box-shadow: 0 0 5px rgba(139, 92, 246, 0.4);
+  }
+  50% {
+    border-color: #ec4899;
+    color: #ec4899;
+    box-shadow: 0 0 5px rgba(236, 72, 153, 0.4);
+  }
+  75% {
+    border-color: #10b981;
+    color: #10b981; /* Green for variety */
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.4);
+  }
+  100% {
+    border-color: #6366f1;
+    color: #6366f1;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.4);
+  }
+}
+
+.skill-tag:hover,
+.project-tech:hover {
+  animation: colorShift 3s infinite linear;
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+  cursor: default;
 }
