@@ -814,11 +814,6 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <p>© 2025 {personalInfo.name}. Crafted with 💜 and React.</p>
-          <div className="footer-links">
-            <a href={personalInfo.github} target="_blank" rel="noreferrer">GitHub</a>
-            <a href={personalInfo.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href={personalInfo.kaggle} target="_blank" rel="noreferrer">Kaggle</a>
-          </div>
         </div>
       </footer>
 
